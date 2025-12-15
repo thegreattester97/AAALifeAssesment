@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\dbarnett\AppData\Local\Temp\testng-eclipse--1396714505\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 1 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.testCases.ProductsPageTests" class="method navigator-link" hash-for-method="verifyItemVisibleInCart">verifyItemVisibleInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_004_CreateBooking_Valid({&quot;firstname&quot;:&quot;John&quot;,&quot;additionalneeds&quot;:&quot;Breakfast&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-01-01&quot;,&quot;checkout&quot;:...)">API_004_CreateBooking_Valid({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_004_CreateBooking_Valid({&quot;firstname&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)">API_004_CreateBooking_Valid({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_004_CreateBooking_Valid({&quot;additionalneeds&quot;:&quot;Lunch&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-02-01&quot;,&quot;checkout&quot;:&quot;2023-02-05&quot;},&quot;totalpri...)">API_004_CreateBooking_Valid({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_005_CreateBooking_MissingField({&quot;firstname&quot;:&quot;John&quot;,&quot;additionalneeds&quot;:&quot;Breakfast&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-01-01&quot;,&quot;checkout&quot;:...)">API_005_CreateBooking_MissingField({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_005_CreateBooking_MissingField({&quot;additionalneeds&quot;:&quot;Lunch&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-02-01&quot;,&quot;checkout&quot;:&quot;2023-02-05&quot;},&quot;totalpri...)">API_005_CreateBooking_MissingField({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_005_CreateBooking_MissingField({&quot;firstname&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)">API_005_CreateBooking_MissingField({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_006_CreateBooking_LongName({&quot;additionalneeds&quot;:&quot;Lunch&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-02-01&quot;,&quot;checkout&quot;:&quot;2023-02-05&quot;},&quot;totalpri...)">API_006_CreateBooking_LongName({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_006_CreateBooking_LongName({&quot;firstname&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)">API_006_CreateBooking_LongName({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_006_CreateBooking_LongName({&quot;firstname&quot;:&quot;John&quot;,&quot;additionalneeds&quot;:&quot;Breakfast&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-01-01&quot;,&quot;checkout&quot;:...)">API_006_CreateBooking_LongName({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_007_GetBooking_Valid({&quot;type&quot;:&quot;get_invalid&quot;,&quot;bookingid&quot;:999999})">API_007_GetBooking_Valid({"type":"get_invalid","bookingid":999999})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_007_GetBooking_Valid({&quot;type&quot;:&quot;get_non_numeric&quot;,&quot;bookingid&quot;:&quot;xyz&quot;})">API_007_GetBooking_Valid({"type":"get_non_numeric","bookingid":"xyz"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_007_GetBooking_Valid({&quot;type&quot;:&quot;get_valid&quot;})">API_007_GetBooking_Valid({"type":"get_valid"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_008_GetBooking_Invalid({&quot;type&quot;:&quot;get_invalid&quot;,&quot;bookingid&quot;:999999})">API_008_GetBooking_Invalid({"type":"get_invalid","bookingid":999999})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_008_GetBooking_Invalid({&quot;type&quot;:&quot;get_non_numeric&quot;,&quot;bookingid&quot;:&quot;xyz&quot;})">API_008_GetBooking_Invalid({"type":"get_non_numeric","bookingid":"xyz"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_008_GetBooking_Invalid({&quot;type&quot;:&quot;get_valid&quot;})">API_008_GetBooking_Invalid({"type":"get_valid"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_009_GetBooking_NonNumeric({&quot;type&quot;:&quot;get_valid&quot;})">API_009_GetBooking_NonNumeric({"type":"get_valid"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_009_GetBooking_NonNumeric({&quot;type&quot;:&quot;get_invalid&quot;,&quot;bookingid&quot;:999999})">API_009_GetBooking_NonNumeric({"type":"get_invalid","bookingid":999999})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.BookingAPITests" class="method navigator-link" hash-for-method="API_009_GetBooking_NonNumeric({&quot;type&quot;:&quot;get_non_numeric&quot;,&quot;bookingid&quot;:&quot;xyz&quot;})">API_009_GetBooking_NonNumeric({"type":"get_non_numeric","bookingid":"xyz"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.AuthAPITests" class="method navigator-link" hash-for-method="authTests({&quot;password&quot;:&quot;&quot;,&quot;type&quot;:&quot;empty&quot;,&quot;username&quot;:&quot;&quot;})">authTests({"password":"","type":"empty","username":""})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.AuthAPITests" class="method navigator-link" hash-for-method="authTests({&quot;password&quot;:&quot;password123&quot;,&quot;type&quot;:&quot;valid&quot;,&quot;username&quot;:&quot;admin&quot;})">authTests({"password":"password123","type":"valid","username":"admin"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.AuthAPITests" class="method navigator-link" hash-for-method="authTests({&quot;password&quot;:&quot;wrongPassword123&quot;,&quot;type&quot;:&quot;invalid&quot;,&quot;username&quot;:&quot;admin&quot;})">authTests({"password":"wrongPassword123","type":"invalid","username":"admin"})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.testCases.LoginTests" class="method navigator-link" hash-for-method="blankCredentialsTest">blankCredentialsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.testCases.LoginTests" class="method navigator-link" hash-for-method="invalidPasswordTest">invalidPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.testCases.LoginTests" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.testCases.ProductsPageTests" class="method navigator-link" hash-for-method="verifyAddItemUpdatesCart">verifyAddItemUpdatesCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.testCases.ProductsPageTests" class="method navigator-link" hash-for-method="verifyProductsAreDisplayed">verifyProductsAreDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.testCases.ProductsPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyItemVisibleInCart">
+                  </a> <!-- verifyItemVisibleInCart -->
+                  <span class="method-name">verifyItemVisibleInCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: Cart does not contain the item previously added expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at test.testCases.ProductsPageTests.verifyItemVisibleInCart(ProductsPageTests.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                  <em>
+(UI-006: Added item appears in cart list)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.BookingAPITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_004_CreateBooking_Valid({&quot;firstname&quot;:&quot;John&quot;,&quot;additionalneeds&quot;:&quot;Breakfast&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-01-01&quot;,&quot;checkout&quot;:...)">
+                  </a> <!-- API_004_CreateBooking_Valid({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...) -->
+                  <span class="method-name">API_004_CreateBooking_Valid</span>
+                  <span class="parameters">({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"})</span>
+                  <em>
+(API-004: POST /booking – Positive – Create a booking with full valid body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_004_CreateBooking_Valid({&quot;firstname&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)">
+                  </a> <!-- API_004_CreateBooking_Valid({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...) -->
+                  <span class="method-name">API_004_CreateBooking_Valid</span>
+                  <span class="parameters">({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"})</span>
+                  <em>
+(API-004: POST /booking – Positive – Create a booking with full valid body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_004_CreateBooking_Valid({&quot;additionalneeds&quot;:&quot;Lunch&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-02-01&quot;,&quot;checkout&quot;:&quot;2023-02-05&quot;},&quot;totalpri...)">
+                  </a> <!-- API_004_CreateBooking_Valid({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...) -->
+                  <span class="method-name">API_004_CreateBooking_Valid</span>
+                  <span class="parameters">({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"})</span>
+                  <em>
+(API-004: POST /booking – Positive – Create a booking with full valid body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_005_CreateBooking_MissingField({&quot;firstname&quot;:&quot;John&quot;,&quot;additionalneeds&quot;:&quot;Breakfast&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-01-01&quot;,&quot;checkout&quot;:...)">
+                  </a> <!-- API_005_CreateBooking_MissingField({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...) -->
+                  <span class="method-name">API_005_CreateBooking_MissingField</span>
+                  <span class="parameters">({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"})</span>
+                  <em>
+(API-005: POST /booking – Negative – Missing required entry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_005_CreateBooking_MissingField({&quot;additionalneeds&quot;:&quot;Lunch&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-02-01&quot;,&quot;checkout&quot;:&quot;2023-02-05&quot;},&quot;totalpri...)">
+                  </a> <!-- API_005_CreateBooking_MissingField({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...) -->
+                  <span class="method-name">API_005_CreateBooking_MissingField</span>
+                  <span class="parameters">({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"})</span>
+                  <em>
+(API-005: POST /booking – Negative – Missing required entry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_005_CreateBooking_MissingField({&quot;firstname&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)">
+                  </a> <!-- API_005_CreateBooking_MissingField({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...) -->
+                  <span class="method-name">API_005_CreateBooking_MissingField</span>
+                  <span class="parameters">({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"})</span>
+                  <em>
+(API-005: POST /booking – Negative – Missing required entry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_006_CreateBooking_LongName({&quot;additionalneeds&quot;:&quot;Lunch&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-02-01&quot;,&quot;checkout&quot;:&quot;2023-02-05&quot;},&quot;totalpri...)">
+                  </a> <!-- API_006_CreateBooking_LongName({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...) -->
+                  <span class="method-name">API_006_CreateBooking_LongName</span>
+                  <span class="parameters">({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"})</span>
+                  <em>
+(API-006: POST /booking – Boundary – Long firstname string)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_006_CreateBooking_LongName({&quot;firstname&quot;:&quot;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)">
+                  </a> <!-- API_006_CreateBooking_LongName({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...) -->
+                  <span class="method-name">API_006_CreateBooking_LongName</span>
+                  <span class="parameters">({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"})</span>
+                  <em>
+(API-006: POST /booking – Boundary – Long firstname string)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_006_CreateBooking_LongName({&quot;firstname&quot;:&quot;John&quot;,&quot;additionalneeds&quot;:&quot;Breakfast&quot;,&quot;bookingdates&quot;:{&quot;checkin&quot;:&quot;2023-01-01&quot;,&quot;checkout&quot;:...)">
+                  </a> <!-- API_006_CreateBooking_LongName({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...) -->
+                  <span class="method-name">API_006_CreateBooking_LongName</span>
+                  <span class="parameters">({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"})</span>
+                  <em>
+(API-006: POST /booking – Boundary – Long firstname string)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_007_GetBooking_Valid({&quot;type&quot;:&quot;get_invalid&quot;,&quot;bookingid&quot;:999999})">
+                  </a> <!-- API_007_GetBooking_Valid({"type":"get_invalid","bookingid":999999}) -->
+                  <span class="method-name">API_007_GetBooking_Valid</span>
+                  <span class="parameters">({"type":"get_invalid","bookingid":999999})</span>
+                  <em>
+(API-007: GET /booking/{id} – Positive – Retrieve a valid booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_007_GetBooking_Valid({&quot;type&quot;:&quot;get_non_numeric&quot;,&quot;bookingid&quot;:&quot;xyz&quot;})">
+                  </a> <!-- API_007_GetBooking_Valid({"type":"get_non_numeric","bookingid":"xyz"}) -->
+                  <span class="method-name">API_007_GetBooking_Valid</span>
+                  <span class="parameters">({"type":"get_non_numeric","bookingid":"xyz"})</span>
+                  <em>
+(API-007: GET /booking/{id} – Positive – Retrieve a valid booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_007_GetBooking_Valid({&quot;type&quot;:&quot;get_valid&quot;})">
+                  </a> <!-- API_007_GetBooking_Valid({"type":"get_valid"}) -->
+                  <span class="method-name">API_007_GetBooking_Valid</span>
+                  <span class="parameters">({"type":"get_valid"})</span>
+                  <em>
+(API-007: GET /booking/{id} – Positive – Retrieve a valid booking)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_008_GetBooking_Invalid({&quot;type&quot;:&quot;get_invalid&quot;,&quot;bookingid&quot;:999999})">
+                  </a> <!-- API_008_GetBooking_Invalid({"type":"get_invalid","bookingid":999999}) -->
+                  <span class="method-name">API_008_GetBooking_Invalid</span>
+                  <span class="parameters">({"type":"get_invalid","bookingid":999999})</span>
+                  <em>
+(API-008: GET /booking/{id} – Negative – Invalid booking ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_008_GetBooking_Invalid({&quot;type&quot;:&quot;get_non_numeric&quot;,&quot;bookingid&quot;:&quot;xyz&quot;})">
+                  </a> <!-- API_008_GetBooking_Invalid({"type":"get_non_numeric","bookingid":"xyz"}) -->
+                  <span class="method-name">API_008_GetBooking_Invalid</span>
+                  <span class="parameters">({"type":"get_non_numeric","bookingid":"xyz"})</span>
+                  <em>
+(API-008: GET /booking/{id} – Negative – Invalid booking ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_008_GetBooking_Invalid({&quot;type&quot;:&quot;get_valid&quot;})">
+                  </a> <!-- API_008_GetBooking_Invalid({"type":"get_valid"}) -->
+                  <span class="method-name">API_008_GetBooking_Invalid</span>
+                  <span class="parameters">({"type":"get_valid"})</span>
+                  <em>
+(API-008: GET /booking/{id} – Negative – Invalid booking ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_009_GetBooking_NonNumeric({&quot;type&quot;:&quot;get_valid&quot;})">
+                  </a> <!-- API_009_GetBooking_NonNumeric({"type":"get_valid"}) -->
+                  <span class="method-name">API_009_GetBooking_NonNumeric</span>
+                  <span class="parameters">({"type":"get_valid"})</span>
+                  <em>
+(API-009: GET /booking/{id} – Boundary – Non-numeric ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_009_GetBooking_NonNumeric({&quot;type&quot;:&quot;get_invalid&quot;,&quot;bookingid&quot;:999999})">
+                  </a> <!-- API_009_GetBooking_NonNumeric({"type":"get_invalid","bookingid":999999}) -->
+                  <span class="method-name">API_009_GetBooking_NonNumeric</span>
+                  <span class="parameters">({"type":"get_invalid","bookingid":999999})</span>
+                  <em>
+(API-009: GET /booking/{id} – Boundary – Non-numeric ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="API_009_GetBooking_NonNumeric({&quot;type&quot;:&quot;get_non_numeric&quot;,&quot;bookingid&quot;:&quot;xyz&quot;})">
+                  </a> <!-- API_009_GetBooking_NonNumeric({"type":"get_non_numeric","bookingid":"xyz"}) -->
+                  <span class="method-name">API_009_GetBooking_NonNumeric</span>
+                  <span class="parameters">({"type":"get_non_numeric","bookingid":"xyz"})</span>
+                  <em>
+(API-009: GET /booking/{id} – Boundary – Non-numeric ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testCases.ProductsPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddItemUpdatesCart">
+                  </a> <!-- verifyAddItemUpdatesCart -->
+                  <span class="method-name">verifyAddItemUpdatesCart</span>
+                  <em>
+(UI-005: Add item increments cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsAreDisplayed">
+                  </a> <!-- verifyProductsAreDisplayed -->
+                  <span class="method-name">verifyProductsAreDisplayed</span>
+                  <em>
+(UI-004: Verify products list is visible after login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.testCases.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankCredentialsTest">
+                  </a> <!-- blankCredentialsTest -->
+                  <span class="method-name">blankCredentialsTest</span>
+                  <em>
+(UI-003: Blank credentials produce error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPasswordTest">
+                  </a> <!-- invalidPasswordTest -->
+                  <span class="method-name">invalidPasswordTest</span>
+                  <em>
+(UI-002: Incorrect password displays error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogin">
+                  </a> <!-- validLogin -->
+                  <span class="method-name">validLogin</span>
+                  <em>
+(UI-001: Valid user logs in successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.AuthAPITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="authTests({&quot;password&quot;:&quot;&quot;,&quot;type&quot;:&quot;empty&quot;,&quot;username&quot;:&quot;&quot;})">
+                  </a> <!-- authTests({"password":"","type":"empty","username":""}) -->
+                  <span class="method-name">authTests</span>
+                  <span class="parameters">({"password":"","type":"empty","username":""})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="authTests({&quot;password&quot;:&quot;password123&quot;,&quot;type&quot;:&quot;valid&quot;,&quot;username&quot;:&quot;admin&quot;})">
+                  </a> <!-- authTests({"password":"password123","type":"valid","username":"admin"}) -->
+                  <span class="method-name">authTests</span>
+                  <span class="parameters">({"password":"password123","type":"valid","username":"admin"})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="authTests({&quot;password&quot;:&quot;wrongPassword123&quot;,&quot;type&quot;:&quot;invalid&quot;,&quot;username&quot;:&quot;admin&quot;})">
+                  </a> <!-- authTests({"password":"wrongPassword123","type":"invalid","username":"admin"}) -->
+                  <span class="method-name">authTests</span>
+                  <span class="parameters">({"password":"wrongPassword123","type":"invalid","username":"admin"})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dbarnett\AppData\Local\Temp\testng-eclipse--1396714505\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.testCases.TestListener&quot;/&gt;
+      &lt;class name=&quot;com.api.utils.DataLoader&quot;/&gt;
+      &lt;class name=&quot;test.pageObjects.LoginPage&quot;/&gt;
+      &lt;class name=&quot;test.testCases.BaseClass&quot;/&gt;
+      &lt;class name=&quot;com.api.tests.AuthAPITests&quot;/&gt;
+      &lt;class name=&quot;test.testCases.ProductsPageTests&quot;/&gt;
+      &lt;class name=&quot;com.api.tests.BookingAPITests&quot;/&gt;
+      &lt;class name=&quot;test.testCases.LoginTests&quot;/&gt;
+      &lt;class name=&quot;test.pageObjects.ProductsPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'authTests')
+data.setCell(0, 2, 'com.api.tests.AuthAPITests')
+data.setCell(0, 3, 3468);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyItemVisibleInCart')
+data.setCell(1, 2, 'test.testCases.ProductsPageTests')
+data.setCell(1, 3, 1975);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAddItemUpdatesCart')
+data.setCell(2, 2, 'test.testCases.ProductsPageTests')
+data.setCell(2, 3, 1689);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductsAreDisplayed')
+data.setCell(3, 2, 'test.testCases.ProductsPageTests')
+data.setCell(3, 3, 1640);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validLogin')
+data.setCell(4, 2, 'test.testCases.LoginTests')
+data.setCell(4, 3, 1299);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'invalidPasswordTest')
+data.setCell(5, 2, 'test.testCases.LoginTests')
+data.setCell(5, 3, 1123);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'blankCredentialsTest')
+data.setCell(6, 2, 'test.testCases.LoginTests')
+data.setCell(6, 3, 920);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'API_004_CreateBooking_Valid')
+data.setCell(7, 2, 'com.api.tests.BookingAPITests')
+data.setCell(7, 3, 837);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'authTests')
+data.setCell(8, 2, 'com.api.tests.AuthAPITests')
+data.setCell(8, 3, 370);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'API_007_GetBooking_Valid')
+data.setCell(9, 2, 'com.api.tests.BookingAPITests')
+data.setCell(9, 3, 309);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'authTests')
+data.setCell(10, 2, 'com.api.tests.AuthAPITests')
+data.setCell(10, 3, 291);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'API_006_CreateBooking_LongName')
+data.setCell(11, 2, 'com.api.tests.BookingAPITests')
+data.setCell(11, 3, 278);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'API_008_GetBooking_Invalid')
+data.setCell(12, 2, 'com.api.tests.BookingAPITests')
+data.setCell(12, 3, 271);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'API_005_CreateBooking_MissingField')
+data.setCell(13, 2, 'com.api.tests.BookingAPITests')
+data.setCell(13, 3, 264);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'API_009_GetBooking_NonNumeric')
+data.setCell(14, 2, 'com.api.tests.BookingAPITests')
+data.setCell(14, 3, 264);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'API_006_CreateBooking_LongName')
+data.setCell(15, 2, 'com.api.tests.BookingAPITests')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'API_007_GetBooking_Valid')
+data.setCell(16, 2, 'com.api.tests.BookingAPITests')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'API_007_GetBooking_Valid')
+data.setCell(17, 2, 'com.api.tests.BookingAPITests')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'API_008_GetBooking_Invalid')
+data.setCell(18, 2, 'com.api.tests.BookingAPITests')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'API_005_CreateBooking_MissingField')
+data.setCell(19, 2, 'com.api.tests.BookingAPITests')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'API_006_CreateBooking_LongName')
+data.setCell(20, 2, 'com.api.tests.BookingAPITests')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'API_009_GetBooking_NonNumeric')
+data.setCell(21, 2, 'com.api.tests.BookingAPITests')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'API_008_GetBooking_Invalid')
+data.setCell(22, 2, 'com.api.tests.BookingAPITests')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'API_004_CreateBooking_Valid')
+data.setCell(23, 2, 'com.api.tests.BookingAPITests')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'API_004_CreateBooking_Valid')
+data.setCell(24, 2, 'com.api.tests.BookingAPITests')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'API_005_CreateBooking_MissingField')
+data.setCell(25, 2, 'com.api.tests.BookingAPITests')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'API_009_GetBooking_NonNumeric')
+data.setCell(26, 2, 'com.api.tests.BookingAPITests')
+data.setCell(26, 3, 1);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.AuthAPITests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">authTests({"password":"password123","type":"valid","username":"admin"})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">authTests({"password":"wrongPassword123","type":"invalid","username":"admin"})</span>
+                <span class="method-start">3477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">authTests({"password":"","type":"empty","username":""})</span>
+                <span class="method-start">3851 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testCases.ProductsPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddItemUpdatesCart</span>
+                <span class="method-start">7133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyItemVisibleInCart</span>
+                <span class="method-start">10703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12915 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsAreDisplayed</span>
+                <span class="method-start">14832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16474 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.BookingAPITests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">API_004_CreateBooking_Valid({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...)</span>
+                <span class="method-start">16831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_004_CreateBooking_Valid({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...)</span>
+                <span class="method-start">17670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_004_CreateBooking_Valid({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)</span>
+                <span class="method-start">17672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_005_CreateBooking_MissingField({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...)</span>
+                <span class="method-start">17676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_005_CreateBooking_MissingField({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...)</span>
+                <span class="method-start">17678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_005_CreateBooking_MissingField({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)</span>
+                <span class="method-start">17943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_006_CreateBooking_LongName({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":...)</span>
+                <span class="method-start">17948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_006_CreateBooking_LongName({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalpri...)</span>
+                <span class="method-start">17952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_006_CreateBooking_LongName({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...)</span>
+                <span class="method-start">17954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_007_GetBooking_Valid({"type":"get_valid"})</span>
+                <span class="method-start">18235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_007_GetBooking_Valid({"type":"get_invalid","bookingid":999999})</span>
+                <span class="method-start">18545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_007_GetBooking_Valid({"type":"get_non_numeric","bookingid":"xyz"})</span>
+                <span class="method-start">18548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_008_GetBooking_Invalid({"type":"get_valid"})</span>
+                <span class="method-start">18553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_008_GetBooking_Invalid({"type":"get_invalid","bookingid":999999})</span>
+                <span class="method-start">18556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_008_GetBooking_Invalid({"type":"get_non_numeric","bookingid":"xyz"})</span>
+                <span class="method-start">18828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_009_GetBooking_NonNumeric({"type":"get_valid"})</span>
+                <span class="method-start">18832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_009_GetBooking_NonNumeric({"type":"get_invalid","bookingid":999999})</span>
+                <span class="method-start">18834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">API_009_GetBooking_NonNumeric({"type":"get_non_numeric","bookingid":"xyz"})</span>
+                <span class="method-start">18837 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.testCases.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankCredentialsTest</span>
+                <span class="method-start">20437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPasswordTest</span>
+                <span class="method-start">23217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLogin</span>
+                <span class="method-start">26045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27345 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

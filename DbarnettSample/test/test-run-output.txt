@@ -1,0 +1,436 @@
+[RemoteTestNG] detected TestNG version 7.9.0
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 15 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[main] INFO org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[main] INFO org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\dbarnett\AppData\Local\Temp\testng-eclipse--1396714505\testng-customsuite.xml
+
+[main] INFO org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+HTTP/1.1 200 OK
+Content-Length: 27
+Content-Type: application/json; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:18 GMT
+Etag: W/"1b-noIkEUE+1vxXMEWU3dpNA4BC2V0"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Bp0mM9XNkzFpE6tbr0DCnCAZ0J5oR4V%2B%2BSvgclvhM9s%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486938"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Bp0mM9XNkzFpE6tbr0DCnCAZ0J5oR4V%2B%2BSvgclvhM9s%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486938"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "token": "c3a910ddd1f44aa"
+}
+Token captured: c3a910ddd1f44aa
+HTTP/1.1 200 OK
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:19 GMT
+Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=j3v4Sy95UXwV5Z%2FfRfr03n24TpHD9FN6hEVnR%2FkKNhI%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486939"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=j3v4Sy95UXwV5Z%2FfRfr03n24TpHD9FN6hEVnR%2FkKNhI%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486939"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "reason": "Bad credentials"
+}
+HTTP/1.1 200 OK
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:20 GMT
+Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=9C37OeUZLIomdesLGsSXqlfyYh0qsBLtLlQC2w6hedc%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486940"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=9C37OeUZLIomdesLGsSXqlfyYh0qsBLtLlQC2w6hedc%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486940"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "reason": "Bad credentials"
+}
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dbarnett\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+Dec 11, 2025 4:02:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 11, 2025 4:02:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dbarnett\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+Dec 11, 2025 4:02:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 11, 2025 4:02:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Screenshot saved: C:\Users\dbarnett\eclipse-workspace\test/Screenshots/verifyItemVisibleInCart_20251211_160229.png
+HTML dump saved: C:\Users\dbarnett\eclipse-workspace\test/Screenshots/verifyItemVisibleInCart_20251211_160229.html
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dbarnett\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+Dec 11, 2025 4:02:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 11, 2025 4:02:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+6
+HTTP/1.1 200 OK
+Content-Length: 195
+Content-Type: application/json; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:33 GMT
+Etag: W/"c3-dQw19HCYKVPM/LeBax2kPpMCULU"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4nb9j1Mf5yZ2wRt64H%2BXYuuSKq9ERv5uetUfFKoIV38%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486953"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4nb9j1Mf5yZ2wRt64H%2BXYuuSKq9ERv5uetUfFKoIV38%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486953"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "bookingid": 702,
+    "booking": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "totalprice": 150,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-01-01",
+            "checkout": "2023-01-10"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+API-004: Booking created. ID = 702
+HTTP/1.1 500 Internal Server Error
+Content-Length: 21
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:34 GMT
+Etag: W/"15-/6VXivhc2MKdLfIkLcUE47K6aH0"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=s1IGBA3Wa1SGayldGtMJV%2B7jAtlWoRTtAei6%2BH7dTJE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486954"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=s1IGBA3Wa1SGayldGtMJV%2B7jAtlWoRTtAei6%2BH7dTJE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486954"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+Internal Server Error
+HTTP/1.1 200 OK
+Content-Length: 328
+Content-Type: application/json; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:34 GMT
+Etag: W/"148-8VE5ApUYkxQu4H+H+z7uw/1RXo0"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=s1IGBA3Wa1SGayldGtMJV%2B7jAtlWoRTtAei6%2BH7dTJE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486954"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=s1IGBA3Wa1SGayldGtMJV%2B7jAtlWoRTtAei6%2BH7dTJE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486954"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "bookingid": 715,
+    "booking": {
+        "firstname": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "lastname": "Smith",
+        "totalprice": 300,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-01",
+            "checkout": "2023-03-10"
+        },
+        "additionalneeds": "Dinner"
+    }
+}
+HTTP/1.1 200 OK
+Content-Length: 167
+Content-Type: application/json; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:34 GMT
+Etag: W/"a7-J+7JZM4RLFHLt8MfpuplRzf5kVY"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=s1IGBA3Wa1SGayldGtMJV%2B7jAtlWoRTtAei6%2BH7dTJE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486954"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=s1IGBA3Wa1SGayldGtMJV%2B7jAtlWoRTtAei6%2BH7dTJE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486954"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "firstname": "John",
+    "lastname": "Doe",
+    "totalprice": 150,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2023-01-10"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 404 Not Found
+Content-Length: 9
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:34 GMT
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=s1IGBA3Wa1SGayldGtMJV%2B7jAtlWoRTtAei6%2BH7dTJE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486954"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=s1IGBA3Wa1SGayldGtMJV%2B7jAtlWoRTtAei6%2BH7dTJE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486954"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+Not Found
+HTTP/1.1 404 Not Found
+Content-Length: 9
+Content-Type: text/plain; charset=utf-8
+Date: Thu, 11 Dec 2025 21:02:35 GMT
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Kha9yth9A1916YpGbL8H8CI5jXg4fyKXGSe8rIEup2U%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1765486955"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Kha9yth9A1916YpGbL8H8CI5jXg4fyKXGSe8rIEup2U%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1765486955"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+Not Found
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dbarnett\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+Dec 11, 2025 4:02:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 11, 2025 4:02:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dbarnett\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+Dec 11, 2025 4:02:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 11, 2025 4:02:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\dbarnett\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+Dec 11, 2025 4:02:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 11, 2025 4:02:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+PASSED: test.testCases.ProductsPageTests.verifyProductsAreDisplayed
+        UI-004: Verify products list is visible after login
+PASSED: com.api.tests.BookingAPITests.API_005_CreateBooking_MissingField({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"})
+        API-005: POST /booking – Negative – Missing required entry
+PASSED: com.api.tests.AuthAPITests.authTests({"password":"","type":"empty","username":""})
+PASSED: com.api.tests.BookingAPITests.API_006_CreateBooking_LongName({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"})
+        API-006: POST /booking – Boundary – Long firstname string
+PASSED: com.api.tests.BookingAPITests.API_006_CreateBooking_LongName({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"})
+        API-006: POST /booking – Boundary – Long firstname string
+PASSED: com.api.tests.BookingAPITests.API_009_GetBooking_NonNumeric({"type":"get_valid"})
+        API-009: GET /booking/{id} – Boundary – Non-numeric ID
+PASSED: com.api.tests.BookingAPITests.API_005_CreateBooking_MissingField({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"})
+        API-005: POST /booking – Negative – Missing required entry
+PASSED: com.api.tests.BookingAPITests.API_008_GetBooking_Invalid({"type":"get_invalid","bookingid":999999})
+        API-008: GET /booking/{id} – Negative – Invalid booking ID
+PASSED: test.testCases.ProductsPageTests.verifyAddItemUpdatesCart
+        UI-005: Add item increments cart
+PASSED: com.api.tests.BookingAPITests.API_004_CreateBooking_Valid({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"})
+        API-004: POST /booking – Positive – Create a booking with full valid body
+PASSED: com.api.tests.BookingAPITests.API_006_CreateBooking_LongName({"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"})
+        API-006: POST /booking – Boundary – Long firstname string
+PASSED: com.api.tests.BookingAPITests.API_008_GetBooking_Invalid({"type":"get_non_numeric","bookingid":"xyz"})
+        API-008: GET /booking/{id} – Negative – Invalid booking ID
+PASSED: test.testCases.LoginTests.validLogin
+        UI-001: Valid user logs in successfully
+PASSED: com.api.tests.BookingAPITests.API_007_GetBooking_Valid({"type":"get_invalid","bookingid":999999})
+        API-007: GET /booking/{id} – Positive – Retrieve a valid booking
+PASSED: com.api.tests.BookingAPITests.API_007_GetBooking_Valid({"type":"get_non_numeric","bookingid":"xyz"})
+        API-007: GET /booking/{id} – Positive – Retrieve a valid booking
+PASSED: com.api.tests.BookingAPITests.API_004_CreateBooking_Valid({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"})
+        API-004: POST /booking – Positive – Create a booking with full valid body
+PASSED: com.api.tests.BookingAPITests.API_004_CreateBooking_Valid({"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"})
+        API-004: POST /booking – Positive – Create a booking with full valid body
+PASSED: com.api.tests.BookingAPITests.API_005_CreateBooking_MissingField({"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"})
+        API-005: POST /booking – Negative – Missing required entry
+PASSED: com.api.tests.AuthAPITests.authTests({"password":"password123","type":"valid","username":"admin"})
+PASSED: test.testCases.LoginTests.blankCredentialsTest
+        UI-003: Blank credentials produce error message
+PASSED: test.testCases.LoginTests.invalidPasswordTest
+        UI-002: Incorrect password displays error
+PASSED: com.api.tests.BookingAPITests.API_008_GetBooking_Invalid({"type":"get_valid"})
+        API-008: GET /booking/{id} – Negative – Invalid booking ID
+PASSED: com.api.tests.BookingAPITests.API_009_GetBooking_NonNumeric({"type":"get_invalid","bookingid":999999})
+        API-009: GET /booking/{id} – Boundary – Non-numeric ID
+PASSED: com.api.tests.BookingAPITests.API_009_GetBooking_NonNumeric({"type":"get_non_numeric","bookingid":"xyz"})
+        API-009: GET /booking/{id} – Boundary – Non-numeric ID
+PASSED: com.api.tests.AuthAPITests.authTests({"password":"wrongPassword123","type":"invalid","username":"admin"})
+PASSED: com.api.tests.BookingAPITests.API_007_GetBooking_Valid({"type":"get_valid"})
+        API-007: GET /booking/{id} – Positive – Retrieve a valid booking
+PASSED: test.testCases.ProductsPageTests.verifyItemVisibleInCart
+        UI-006: Added item appears in cart list
+java.lang.AssertionError: Cart does not contain the item previously added expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at test.testCases.ProductsPageTests.verifyItemVisibleInCart(ProductsPageTests.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+
+===============================================
+    Default test
+    Tests run: 14, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 27, Passes: 27, Failures: 0, Skips: 0
+===============================================
+
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@602b7944: 111 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2ad6895a: 21 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@301f9aa0: 37 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2fe38b73: 15 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4b8cde43: 37 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@34c6b52e: 0 ms

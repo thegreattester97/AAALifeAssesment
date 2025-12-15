@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="26" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-11T16:02:16 EST" name="Default suite" finished-at="2025-12-11T16:02:43 EST" duration-ms="27856">
+    <groups>
+    </groups>
+    <test started-at="2025-12-11T16:02:16 EST" name="Default test" finished-at="2025-12-11T16:02:43 EST" duration-ms="27856">
+      <class name="com.api.tests.AuthAPITests">
+        <test-method signature="authTests(org.json.JSONObject)[pri:1, instance:com.api.tests.AuthAPITests@5f3b9c57]" started-at="2025-12-11T16:02:16 EST" name="authTests" data-provider="authData" finished-at="2025-12-11T16:02:19 EST" duration-ms="3468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"password":"password123","type":"valid","username":"admin"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authTests -->
+        <test-method signature="authTests(org.json.JSONObject)[pri:1, instance:com.api.tests.AuthAPITests@5f3b9c57]" started-at="2025-12-11T16:02:19 EST" name="authTests" data-provider="authData" finished-at="2025-12-11T16:02:19 EST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"password":"wrongPassword123","type":"invalid","username":"admin"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authTests -->
+        <test-method signature="authTests(org.json.JSONObject)[pri:1, instance:com.api.tests.AuthAPITests@5f3b9c57]" started-at="2025-12-11T16:02:19 EST" name="authTests" data-provider="authData" finished-at="2025-12-11T16:02:20 EST" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"password":"","type":"empty","username":""}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authTests -->
+      </class> <!-- com.api.tests.AuthAPITests -->
+      <class name="com.api.tests.BookingAPITests">
+        <test-method signature="API_004_CreateBooking_Valid(org.json.JSONObject)[pri:4, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:32 EST" name="API_004_CreateBooking_Valid" description="API-004: POST /booking – Positive – Create a booking with full valid body" data-provider="createData" finished-at="2025-12-11T16:02:33 EST" duration-ms="837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_004_CreateBooking_Valid -->
+        <test-method signature="API_004_CreateBooking_Valid(org.json.JSONObject)[pri:4, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:33 EST" name="API_004_CreateBooking_Valid" description="API-004: POST /booking – Positive – Create a booking with full valid body" data-provider="createData" finished-at="2025-12-11T16:02:33 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_004_CreateBooking_Valid -->
+        <test-method signature="API_004_CreateBooking_Valid(org.json.JSONObject)[pri:4, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:33 EST" name="API_004_CreateBooking_Valid" description="API-004: POST /booking – Positive – Create a booking with full valid body" data-provider="createData" finished-at="2025-12-11T16:02:33 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_004_CreateBooking_Valid -->
+        <test-method signature="API_005_CreateBooking_MissingField(org.json.JSONObject)[pri:5, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:33 EST" name="API_005_CreateBooking_MissingField" description="API-005: POST /booking – Negative – Missing required entry" data-provider="createData" finished-at="2025-12-11T16:02:33 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_005_CreateBooking_MissingField -->
+        <test-method signature="API_005_CreateBooking_MissingField(org.json.JSONObject)[pri:5, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:33 EST" name="API_005_CreateBooking_MissingField" description="API-005: POST /booking – Negative – Missing required entry" data-provider="createData" finished-at="2025-12-11T16:02:34 EST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_005_CreateBooking_MissingField -->
+        <test-method signature="API_005_CreateBooking_MissingField(org.json.JSONObject)[pri:5, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_005_CreateBooking_MissingField" description="API-005: POST /booking – Negative – Missing required entry" data-provider="createData" finished-at="2025-12-11T16:02:34 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_005_CreateBooking_MissingField -->
+        <test-method signature="API_006_CreateBooking_LongName(org.json.JSONObject)[pri:6, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_006_CreateBooking_LongName" description="API-006: POST /booking – Boundary – Long firstname string" data-provider="createData" finished-at="2025-12-11T16:02:34 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"John","additionalneeds":"Breakfast","bookingdates":{"checkin":"2023-01-01","checkout":"2023-01-10"},"totalprice":150,"depositpaid":true,"type":"create_valid","lastname":"Doe"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_006_CreateBooking_LongName -->
+        <test-method signature="API_006_CreateBooking_LongName(org.json.JSONObject)[pri:6, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_006_CreateBooking_LongName" description="API-006: POST /booking – Boundary – Long firstname string" data-provider="createData" finished-at="2025-12-11T16:02:34 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"additionalneeds":"Lunch","bookingdates":{"checkin":"2023-02-01","checkout":"2023-02-05"},"totalprice":200,"depositpaid":false,"type":"create_missing_firstname","lastname":"Mills"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_006_CreateBooking_LongName -->
+        <test-method signature="API_006_CreateBooking_LongName(org.json.JSONObject)[pri:6, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_006_CreateBooking_LongName" description="API-006: POST /booking – Boundary – Long firstname string" data-provider="createData" finished-at="2025-12-11T16:02:34 EST" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","additionalneeds":"Dinner","bookingdates":{"checkin":"2023-03-01","checkout":"2023-03-10"},"totalprice":300,"depositpaid":true,"type":"create_long_firstname","lastname":"Smith"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_006_CreateBooking_LongName -->
+        <test-method signature="API_007_GetBooking_Valid(org.json.JSONObject)[pri:7, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_007_GetBooking_Valid" description="API-007: GET /booking/{id} – Positive – Retrieve a valid booking" data-provider="getData" finished-at="2025-12-11T16:02:34 EST" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_valid"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_007_GetBooking_Valid -->
+        <test-method signature="API_007_GetBooking_Valid(org.json.JSONObject)[pri:7, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_007_GetBooking_Valid" description="API-007: GET /booking/{id} – Positive – Retrieve a valid booking" data-provider="getData" finished-at="2025-12-11T16:02:34 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_invalid","bookingid":999999}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_007_GetBooking_Valid -->
+        <test-method signature="API_007_GetBooking_Valid(org.json.JSONObject)[pri:7, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_007_GetBooking_Valid" description="API-007: GET /booking/{id} – Positive – Retrieve a valid booking" data-provider="getData" finished-at="2025-12-11T16:02:34 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_non_numeric","bookingid":"xyz"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_007_GetBooking_Valid -->
+        <test-method signature="API_008_GetBooking_Invalid(org.json.JSONObject)[pri:8, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_008_GetBooking_Invalid" description="API-008: GET /booking/{id} – Negative – Invalid booking ID" data-provider="getData" finished-at="2025-12-11T16:02:34 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_valid"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_008_GetBooking_Invalid -->
+        <test-method signature="API_008_GetBooking_Invalid(org.json.JSONObject)[pri:8, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_008_GetBooking_Invalid" description="API-008: GET /booking/{id} – Negative – Invalid booking ID" data-provider="getData" finished-at="2025-12-11T16:02:34 EST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_invalid","bookingid":999999}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_008_GetBooking_Invalid -->
+        <test-method signature="API_008_GetBooking_Invalid(org.json.JSONObject)[pri:8, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_008_GetBooking_Invalid" description="API-008: GET /booking/{id} – Negative – Invalid booking ID" data-provider="getData" finished-at="2025-12-11T16:02:34 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_non_numeric","bookingid":"xyz"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_008_GetBooking_Invalid -->
+        <test-method signature="API_009_GetBooking_NonNumeric(org.json.JSONObject)[pri:9, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_009_GetBooking_NonNumeric" description="API-009: GET /booking/{id} – Boundary – Non-numeric ID" data-provider="getData" finished-at="2025-12-11T16:02:34 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_valid"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_009_GetBooking_NonNumeric -->
+        <test-method signature="API_009_GetBooking_NonNumeric(org.json.JSONObject)[pri:9, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_009_GetBooking_NonNumeric" description="API-009: GET /booking/{id} – Boundary – Non-numeric ID" data-provider="getData" finished-at="2025-12-11T16:02:34 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_invalid","bookingid":999999}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_009_GetBooking_NonNumeric -->
+        <test-method signature="API_009_GetBooking_NonNumeric(org.json.JSONObject)[pri:9, instance:com.api.tests.BookingAPITests@2cf23c81]" started-at="2025-12-11T16:02:34 EST" name="API_009_GetBooking_NonNumeric" description="API-009: GET /booking/{id} – Boundary – Non-numeric ID" data-provider="getData" finished-at="2025-12-11T16:02:35 EST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"type":"get_non_numeric","bookingid":"xyz"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_009_GetBooking_NonNumeric -->
+      </class> <!-- com.api.tests.BookingAPITests -->
+      <class name="test.testCases.ProductsPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:20 EST" name="setUp" finished-at="2025-12-11T16:02:23 EST" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddItemUpdatesCart()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:23 EST" name="verifyAddItemUpdatesCart" description="UI-005: Add item increments cart" finished-at="2025-12-11T16:02:24 EST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddItemUpdatesCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:24 EST" name="tearDown" finished-at="2025-12-11T16:02:25 EST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:25 EST" name="setUp" finished-at="2025-12-11T16:02:26 EST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyItemVisibleInCart()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:26 EST" name="verifyItemVisibleInCart" description="UI-006: Added item appears in cart list" finished-at="2025-12-11T16:02:28 EST" duration-ms="1975" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cart does not contain the item previously added expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cart does not contain the item previously added expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at test.testCases.ProductsPageTests.verifyItemVisibleInCart(ProductsPageTests.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemVisibleInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:29 EST" name="tearDown" finished-at="2025-12-11T16:02:29 EST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:29 EST" name="setUp" finished-at="2025-12-11T16:02:30 EST" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductsAreDisplayed()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:30 EST" name="verifyProductsAreDisplayed" description="UI-004: Verify products list is visible after login" finished-at="2025-12-11T16:02:32 EST" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsAreDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.testCases.ProductsPageTests@1e044120]" started-at="2025-12-11T16:02:32 EST" name="tearDown" finished-at="2025-12-11T16:02:32 EST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.testCases.ProductsPageTests -->
+      <class name="test.testCases.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:35 EST" name="setUp" finished-at="2025-12-11T16:02:36 EST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="blankCredentialsTest()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:36 EST" name="blankCredentialsTest" description="UI-003: Blank credentials produce error message" finished-at="2025-12-11T16:02:37 EST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankCredentialsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:37 EST" name="tearDown" finished-at="2025-12-11T16:02:37 EST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:37 EST" name="setUp" finished-at="2025-12-11T16:02:39 EST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordTest()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:39 EST" name="invalidPasswordTest" description="UI-002: Incorrect password displays error" finished-at="2025-12-11T16:02:40 EST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:40 EST" name="tearDown" finished-at="2025-12-11T16:02:40 EST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:40 EST" name="setUp" finished-at="2025-12-11T16:02:42 EST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:42 EST" name="validLogin" description="UI-001: Valid user logs in successfully" finished-at="2025-12-11T16:02:43 EST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.testCases.LoginTests@3624da92]" started-at="2025-12-11T16:02:43 EST" name="tearDown" finished-at="2025-12-11T16:02:43 EST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.testCases.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
